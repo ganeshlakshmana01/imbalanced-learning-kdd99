@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data / model artifacts
+data/raw/
+data/processed/
+*.pkl
+*.joblib
+kddcup.data_10_percent
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
